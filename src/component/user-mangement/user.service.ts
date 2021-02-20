@@ -74,7 +74,7 @@ export class UserService {
         userData.isLogin = true;
         userData.isBlocked = false;
         userData.userToken = userToken;
-        userData.oldPassword = '{}';
+        // userData.oldPassword = '{}';
 
 
         const deviceData = new Devices();

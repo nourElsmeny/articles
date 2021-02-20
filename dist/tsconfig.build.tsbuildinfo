@@ -3742,8 +3742,8 @@
         "affectsGlobalScope": false
       },
       "../src/config/schemas/user/user.entity.ts": {
-        "version": "7158fcdca0e6aa0d66e12611b73f468454ab42e2f482f46fe969d5526eaf4e32",
-        "signature": "9b4fa3a3e23f881a302f0889427b032a24c63547e06b1fce0f850d890e216b1d",
+        "version": "11624528b49c9d1db03828c173eb809e3052cc967b539acb85759583fd9f8d7e",
+        "signature": "d17fb6718e3770ce17babb25611b5a82c97aa0d29fdd562a9749507cf961476a",
         "affectsGlobalScope": false
       },
       "../src/config/schemas/user/user.repositry.ts": {
@@ -3752,7 +3752,7 @@
         "affectsGlobalScope": false
       },
       "../src/component/user-mangement/user.service.ts": {
-        "version": "843484cdbe41c22d3aa47a9ed1b8f88289b82cc06c8a86f44371e2c01a036835",
+        "version": "e7e9b8341981cf680d17848b9bfb5802bf15eb05fed890f3206acb3e73675117",
         "signature": "403826de2c993ae715d6348f9d58d4c04944af4bf58dcf91bbf93d0c4eabc017",
         "affectsGlobalScope": false
       },
@@ -3772,8 +3772,8 @@
         "affectsGlobalScope": false
       },
       "../src/config/schemas/articles/articles.entity.ts": {
-        "version": "eec6e3c6bcb49ca13a97a5b29d8d609383b0e9ecb1d181fb9140f0236060156b",
-        "signature": "4da83a0bf1f5bb4a71933a6bc0fe6981379520a9d979487916ed38b808664b5d",
+        "version": "baa8e5f0747bb98e713a0eaf5be56f4cc7d65df05de75d7c163ad923042611f4",
+        "signature": "65fdc77f78be2caafeba01ce3acbba3fc5fbd38bcef0986aed1937ffdcfaa816",
         "affectsGlobalScope": false
       },
       "../src/config/schemas/articles/articles.repositry.ts": {
@@ -3812,7 +3812,7 @@
         "affectsGlobalScope": false
       },
       "../src/config/database-config/typeorm.config.ts": {
-        "version": "5ee67bde43838579e223d2e9cd1c4a07816a3d9b7fe61598ddd1f12d2bec5d3e",
+        "version": "2e426bbf7dc40e0919443edb1f27855fa2e92a392d3d10e894589c6c4be75c4c",
         "signature": "e48d1e836452920a823efe3c1f15dbaa531cbb2c536b3d47ad06ed5201a8b847",
         "affectsGlobalScope": false
       },

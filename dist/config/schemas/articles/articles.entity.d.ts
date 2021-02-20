@@ -8,5 +8,4 @@ export declare class Articles extends BaseEntity {
     isActive: boolean;
     isDeleted: boolean;
     createdAt: string;
-    updatedAt: string;
 }

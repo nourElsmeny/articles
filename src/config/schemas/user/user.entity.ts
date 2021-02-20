@@ -78,8 +78,6 @@ export class Users extends BaseEntity {
   @Column()
   userToken: string;
 
-  @Column({ nullable: true})
-  oldPassword: string;
   
   @CreateDateColumn()
   createdAt: string;

@@ -40,6 +40,6 @@ export class Articles extends BaseEntity {
   @CreateDateColumn()
   createdAt: string;
 
-  @UpdateDateColumn()
-  updatedAt: string;
+  // @UpdateDateColumn()
+  // updatedAt: string;
 }

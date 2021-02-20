@@ -45,10 +45,6 @@ __decorate([
     typeorm_1.CreateDateColumn(),
     __metadata("design:type", String)
 ], Articles.prototype, "createdAt", void 0);
-__decorate([
-    typeorm_1.UpdateDateColumn(),
-    __metadata("design:type", String)
-], Articles.prototype, "updatedAt", void 0);
 Articles = __decorate([
     typeorm_1.Entity()
 ], Articles);

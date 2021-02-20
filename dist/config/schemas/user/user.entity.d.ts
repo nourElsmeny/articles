@@ -22,7 +22,6 @@ export declare class Users extends BaseEntity {
     isLogin: boolean;
     isBlocked: boolean;
     userToken: string;
-    oldPassword: string;
     createdAt: string;
     updatedAt: string;
 }

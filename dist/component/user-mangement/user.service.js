@@ -73,7 +73,6 @@ let UserService = class UserService {
         userData.isLogin = true;
         userData.isBlocked = false;
         userData.userToken = userToken;
-        userData.oldPassword = '{}';
         const deviceData = new devices_entity_1.Devices();
         deviceData.deviceId = fingerprint;
         deviceData.userId = userId;

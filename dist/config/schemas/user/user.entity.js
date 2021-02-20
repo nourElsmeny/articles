@@ -102,10 +102,6 @@ __decorate([
     __metadata("design:type", String)
 ], Users.prototype, "userToken", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
-    __metadata("design:type", String)
-], Users.prototype, "oldPassword", void 0);
-__decorate([
     typeorm_1.CreateDateColumn(),
     __metadata("design:type", String)
 ], Users.prototype, "createdAt", void 0);
