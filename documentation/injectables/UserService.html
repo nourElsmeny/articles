@@ -1,0 +1,752 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>art documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">art documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li>UserService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/component/user-mangement/user.service.ts</code>
+        </p>
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#login">login</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#logout">logout</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#signup">signup</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#userExist">userExist</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(helperService: <a href="../injectables/HelperService.html">HelperService</a>, deviceRepositry: <a href="../classes/DevicesRepositry.html">DevicesRepositry</a>, userRepositry: <a href="../classes/UserRepositry.html">UserRepositry</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/component/user-mangement/user.service.ts:12</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>helperService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/HelperService.html" target="_self" >HelperService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>deviceRepositry</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/DevicesRepositry.html" target="_self" >DevicesRepositry</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>userRepositry</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/UserRepositry.html" target="_self" >UserRepositry</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="login"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            login
+                        </b>
+                        <a href="#login"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>login(logindto: <a href="../classes/LoginDto.html">LoginDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="109"
+                            class="link-to-prism">src/component/user-mangement/user.service.ts:109</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>logindto</td>
+                                    <td>
+                                                <code><a href="../classes/LoginDto.html" target="_self" >LoginDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="logout"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            logout
+                        </b>
+                        <a href="#logout"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>logout(req, logoutDto: <a href="../classes/LogoutDto.html">LogoutDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="182"
+                            class="link-to-prism">src/component/user-mangement/user.service.ts:182</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>req</td>
+                                    <td>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>logoutDto</td>
+                                    <td>
+                                                <code><a href="../classes/LogoutDto.html" target="_self" >LogoutDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="signup"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            signup
+                        </b>
+                        <a href="#signup"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>signup(signupdto: <a href="../classes/SignupDto.html">SignupDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="31"
+                            class="link-to-prism">src/component/user-mangement/user.service.ts:31</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>signupdto</td>
+                                    <td>
+                                                <code><a href="../classes/SignupDto.html" target="_self" >SignupDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="userExist"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            userExist
+                        </b>
+                        <a href="#userExist"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>userExist(userExistDto: <a href="../classes/UserExistDto.html">UserExistDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="20"
+                            class="link-to-prism">src/component/user-mangement/user.service.ts:20</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>userExistDto</td>
+                                    <td>
+                                                <code><a href="../classes/UserExistDto.html" target="_self" >UserExistDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { HttpException, HttpStatus, Injectable } from &#x27;@nestjs/common&#x27;;
+import { InjectRepository } from &#x27;@nestjs/typeorm&#x27;;
+import { v4 as uuidv4 } from &#x27;uuid&#x27;;
+import { HelperService } from &#x27;../../config/helper/helper.service&#x27;;
+import { Devices } from &#x27;../../config/schemas/devices/devices.entity&#x27;;
+import { DevicesRepositry } from &#x27;../../config/schemas/devices/devices.repositry&#x27;;
+import { UserRepositry } from &#x27;../../config/schemas/user/user.repositry&#x27;;
+import { LoginDto, LogoutDto, SignupDto, UserExistDto } from &#x27;./dto/user.dto&#x27;;
+import { Users } from &#x27;../../config/schemas/user/user.entity&#x27;;
+
+@Injectable()
+export class UserService {
+    constructor(private helperService: HelperService,
+        @InjectRepository(DevicesRepositry)
+        private deviceRepositry: DevicesRepositry,
+        @InjectRepository(UserRepositry)
+        private userRepositry: UserRepositry,
+    ) { }
+
+    async userExist(userExistDto: UserExistDto): Promise&lt;any&gt; {
+        const user &#x3D; await this.userRepositry.findOne({
+          countryCode: userExistDto.countryCode,
+          mobileNumber: userExistDto.mobileNum,
+        });
+        return new HttpException(
+            {exist:!!user},
+            HttpStatus.OK,
+        );
+      }
+
+    async signup(signupdto: SignupDto): Promise&lt;any&gt; {
+        let Password &#x3D; await this.helperService.generateHash(
+            signupdto.password,
+        );
+        
+        const user &#x3D; await this.userRepositry.findOne({
+            mobileNumber: signupdto.mobileNum,
+        });
+        if (user) {
+            throw new HttpException(
+                &#x27;this mobile number alredy have an account&#x27;,
+                HttpStatus.BAD_REQUEST,
+            );
+        }
+
+        const userId: string &#x3D; uuidv4();
+        const deviceToken: string &#x3D; uuidv4();
+        let fingerprint &#x3D; await this.helperService.generateHash(signupdto.fingerPrint);
+        const userToken &#x3D; await this.helperService.CriptoData({
+            userId: userId,
+            date: new Date(),
+            fingerPrint: fingerprint,
+        });
+        const userData &#x3D; new Users();
+        userData.username &#x3D; signupdto.username;
+        userData.password &#x3D; Password;
+        userData.userId &#x3D; userId;
+        userData.firstName &#x3D; &quot;&quot;;
+        userData.lastName &#x3D; &quot;&quot;;
+        userData.image &#x3D; &quot;&quot;;
+        userData.country &#x3D; signupdto.country;
+        userData.mobileNumber &#x3D; signupdto.mobileNum;
+        userData.countryCode &#x3D; signupdto.countryCode;
+        userData.address &#x3D; &quot;&quot;;
+        userData.location &#x3D; &quot;&quot;;
+        userData.role &#x3D; signupdto.role;
+        userData.gender &#x3D; &quot;&quot;;
+        userData.pirthDate &#x3D; &quot;&quot;;
+        userData.email &#x3D; &quot;&quot;;
+        userData.emailVirefy &#x3D; false;
+        userData.mobileViryfy &#x3D; false;
+        userData.isActive &#x3D; false;
+        userData.isDeleted &#x3D; false;
+        userData.isLogin &#x3D; true;
+        userData.isBlocked &#x3D; false;
+        userData.userToken &#x3D; userToken;
+        // userData.oldPassword &#x3D; &#x27;{}&#x27;;
+
+
+        const deviceData &#x3D; new Devices();
+        deviceData.deviceId &#x3D; fingerprint
+        deviceData.userId &#x3D; userId;
+        deviceData.detail &#x3D; signupdto.uHeader;
+        deviceData.isActive &#x3D; true;
+        deviceData.isDeleted &#x3D; false;
+        deviceData.isBlocked &#x3D; false;
+
+
+        const userRes &#x3D; await this.userRepositry.save(userData);
+        if (!userRes) {
+            throw new HttpException(
+                &#x27;Error in create user&#x27;,
+                HttpStatus.BAD_REQUEST,
+            );
+        }
+
+        const deviceRes &#x3D; await this.deviceRepositry.save(deviceData);
+
+        if (!deviceRes) {
+            throw new HttpException(
+                &#x27;Cannot recognized this Device&#x27;,
+                HttpStatus.BAD_REQUEST,
+            );
+        }
+
+        return new HttpException({ token: userRes.userToken }, HttpStatus.OK);
+    }
+
+    async login(logindto: LoginDto): Promise&lt;any&gt; {
+        // hashing the input password ----------------------
+        let Password &#x3D; await this.helperService.generateHash(
+            logindto.password,
+        );
+
+        // get user information for input monbile number --------
+        const user &#x3D; await this.userRepositry.findOne({
+            mobileNumber: logindto.mobileNum,
+            countryCode: logindto.countryCode
+        });
+
+        // check if user is exist --------------------------------
+        if (!user) {
+            throw new HttpException(
+                &#x27;this mobile number not foud, please signup first&#x27;,
+                HttpStatus.BAD_REQUEST,
+            );
+        }
+
+        const fingerPrint &#x3D; await this.helperService.generateHash(logindto.fingerPrint);
+
+        // check if from same device ------------------------------
+        const deviceRes &#x3D; await this.deviceRepositry.findOne({ userId: user.userId, deviceId: fingerPrint });
+
+        let activeDevice &#x3D; false;
+        if (deviceRes) {
+            activeDevice &#x3D; deviceRes.isActive;
+        }
+        // if user aleary login and enter same password and from same device  -----
+        if (user.isLogin &amp;&amp; user.password &#x3D;&#x3D; Password &amp;&amp; activeDevice) {
+            throw new HttpException({
+                message: &#x27;You are already loged in&#x27;, token: user.userToken
+            },
+                HttpStatus.OK,
+            );
+        }
+
+
+        const userToken &#x3D; await this.helperService.CriptoData({
+            userId: user.userId,
+            date: new Date(),
+            fingerPrint: fingerPrint,
+        },
+        );
+
+        const deviceData &#x3D; new Devices();
+        deviceData.deviceId &#x3D; fingerPrint
+        deviceData.userId &#x3D; user.userId;
+        deviceData.detail &#x3D; logindto.uHeader;
+        deviceData.isActive &#x3D; true;
+        deviceData.isDeleted &#x3D; false;
+        deviceData.isBlocked &#x3D; false;
+        user.userToken &#x3D; userToken
+        const userUpdates &#x3D; await this.userRepositry.save(user);
+        if (!userUpdates) {
+            throw new HttpException(&#x27;Somthing went wrrong, Please try again&#x27;,
+                HttpStatus.BAD_REQUEST,
+            );
+        }
+
+        let deviceUpdates: any;
+
+        if (deviceRes &amp;&amp; !activeDevice) {
+            deviceUpdates &#x3D; await this.deviceRepositry.update({ deviceId: deviceRes.deviceId }, { isActive: true });
+        } else {
+            deviceUpdates &#x3D; await this.deviceRepositry.save(deviceData);
+        }
+
+        return new HttpException({ token: userUpdates.userToken }, HttpStatus.OK);
+    }
+
+
+    async logout(req, logoutDto: LogoutDto): Promise&lt;any&gt; {
+        const userToken &#x3D; await this.helperService.CriptoData({
+            userId: req.me.userId,
+            date: new Date(),
+            fingerPrint: req.me.fingerprint,
+        });
+        const userRes &#x3D; await this.userRepositry.update({
+            userId: req.me.userId
+        }, {
+            isLogin: false,
+            userToken: userToken
+        });
+
+        return new HttpException(&quot;Success&quot;, HttpStatus.OK);
+    }
+
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'UserService.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
